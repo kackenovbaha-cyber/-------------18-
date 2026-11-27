@@ -1,13 +1,13 @@
 function checkAge(age) {
-  if (age < 0) {
-    return "Некорректный возраст";
-  }
+    if (age < 0) {
+        return "Некорректный возраст";
+    }
 
-  if (age < 18) {
-    return "Доступ запрещён";
-  }
+    if (age < 18) {
+        return "Доступ запрещён";
+    }
 
-  return "Доступ разрешён";
+    return "Доступ разрешён";
 }
 
 console.log(checkAge(15));

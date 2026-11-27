@@ -1,7 +1,7 @@
 function greet(name) {
-  return `Привет, ${name}!`;
+    return `Привет, ${name}!`;
 }
 
 console.log(greet("Алексей"));
 console.log(greet("Мария"));
-console.log(greet("Иван"));
+console.log(greet("Давид"));

@@ -1,21 +1,21 @@
-const sum = function (a, b) {
-  return a + b;
+const sum = function(a, b) {
+    return a + b;
 };
 
-const subtract = function (a, b) {
-  return a - b;
+const subtract = function(a, b) {
+    return a - b;
 };
 
-const multiply = function (a, b) {
-  return a * b;
+const multiply = function(a, b) {
+    return a * b;
 };
 
-const divide = function (a, b) {
-  if (b === 0) {
-    return "Деление на ноль невозможно";
-  }
+const divide = function(a, b) {
+    if (b === 0) {
+        return "Деление на ноль невозможно";
+    }
 
-  return a / b;
+    return a / b;
 };
 
 console.log(sum(10, 5));
